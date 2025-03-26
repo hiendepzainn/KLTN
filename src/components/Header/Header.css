@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.header .left-component {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.header .center-component {
+  display: flex;
+  align-items: center;
+  width: 9%;
+  height: 100%;
+}
+
+.header .right-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .center-component .center-icon {
+  font-size: 18px;
+}
+
+.header .center-component .outer-icon {
+  margin-left: 20px;
+}
+
+.header .center-component .home-icon {
+  color: #f0564a;
+}
+
+.header .outer-icon {
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header .right-component .outer-icon:nth-child(3) {
+  height: fit-content;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 17px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+img {
+  height: 48px;
+  cursor: pointer;
+  margin-top: 2px;
+  scale: 1.2;
+}
+
+.header .right-component .outer-right-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.header .right-component .icon-user {
+  cursor: pointer;
+  font-size: 35px;
+  background-color: #ff0f0f00;
+}
+
+.header .change-colour {
+  cursor: pointer;
+}
+
+.header .change-colour:hover {
+  color: #f0564a;
+  transition: color 0.2s ease;
+}
+
+.header .right-component .icon-theme {
+  padding: 10px 10px;
+  border-left: 1px solid #ddd;
+}
