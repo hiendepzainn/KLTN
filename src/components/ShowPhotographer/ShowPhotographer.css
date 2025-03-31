@@ -1,0 +1,173 @@
+.show-photographer {
+  /* background-color: antiquewhite; */
+  width: 85%;
+  height: calc(100vh - 48.67px);
+  position: fixed;
+  top: 48.67px;
+  left: 15%;
+  overflow-y: auto;
+  padding-left: 15px;
+}
+
+.show-photographer .search-area {
+  padding: 25px 15px 0px 15px;
+}
+
+.show-photographer .item {
+  border: 1px solid #ddd;
+  width: calc((100% - 100px) / 4);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 23px;
+  margin-bottom: 23px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.show-photographer .item:hover {
+  scale: 1.05;
+}
+
+.show-photographer .item .image-area {
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+.show-photographer .item .image-area img {
+  height: 100%;
+}
+
+.show-photographer .item .image-area .price {
+  width: fit-content;
+  background-color: #f0564a;
+  padding: 4px 7px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 13px;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+
+.show-photographer .infor {
+  padding: 6px 5px 10px 7px;
+}
+
+.show-photographer .infor img {
+  height: 17px;
+}
+
+.show-photographer .infor .name {
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.show-photographer .infor .description {
+  color: #9298a1;
+  font-size: 11px;
+  letter-spacing: 0.1px;
+  margin-bottom: 13px;
+}
+
+.show-photographer .infor .bottom-item-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-photographer .infor .frequent-block {
+  display: flex;
+}
+
+.show-photographer .infor .frequent-block {
+  display: flex;
+}
+
+.show-photographer .infor .frequent-block .outer-icon {
+  width: 25px;
+  height: 25px;
+  background-color: #d9d9d9d7;
+  margin-right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.show-photographer .infor .rate-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-photographer .infor .rate-block .star-icon {
+  color: #de5044;
+}
+
+.show-photographer .infor .rate-block .rate-index {
+  font-weight: 500;
+  margin: 0px 4px 0px 2px;
+}
+
+.show-photographer .show-area {
+  padding: 15px;
+  /* background-color: aquamarine; */
+}
+
+.show-photographer .show-area .category {
+  font-weight: 700;
+  font-size: 20px;
+  color: #f0564a;
+  margin-bottom: 20px;
+  letter-spacing: 0.1px;
+}
+.show-photographer .list-photographer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* CSS search-area  */
+
+.show-photographer .search-area .select {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.show-photographer .search-area .range-price {
+  border: 1px solid #ddd;
+  padding: 8px 13px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #4a4a4a;
+}
+
+.show-photographer .search-area .search-input {
+  border: 1px solid #969696;
+  padding: 8px 13px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000000;
+}
+
+.show-photographer .search-area .search-button {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 5px;
+  background-color: #f0554ad0;
+  cursor: pointer;
+  color: #fff;
+  align-content: center;
+}
+
+/*END CSS search-area  */

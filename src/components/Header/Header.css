@@ -15,6 +15,7 @@
 }
 
 .header .center-component {
+  padding-left: 70px;
   display: flex;
   align-items: center;
   width: 9%;
