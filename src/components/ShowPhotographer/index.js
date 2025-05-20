@@ -20,8 +20,14 @@ import img8 from "../../assets/images/8.jpg";
 import img9 from "../../assets/images/9.jpg";
 import img10 from "../../assets/images/10.jpg";
 import img11 from "../../assets/images/11.jpg";
+import { useNavigate } from "react-router-dom";
 
 var ShowPhotographer = () => {
+  const navigate = useNavigate();
+  var openDetails = () => {
+    navigate("/details");
+  };
+
   return (
     <>
       <div className="show-photographer">
@@ -69,7 +75,7 @@ var ShowPhotographer = () => {
         <div className="show-area">
           <div className="category">VIP Photographers</div>
           <div className="list-photographer">
-            <div className="item">
+            <div onClick={openDetails} className="item">
               <div className="image-area">
                 <img src={img1} alt="avatar" />
                 <div className="price">900,000đ/buổi</div>

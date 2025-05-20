@@ -6,12 +6,23 @@ import { BsFillMoonFill } from "react-icons/bs";
 import { PiUserCircleLight } from "react-icons/pi";
 import "./Header.css";
 import logo from "../../assets/images/find.png";
+import { useNavigate } from "react-router-dom";
 
 var Header = () => {
+  const navigate = useNavigate();
+
+  var switchToLogin = () => {
+    navigate("/login");
+  };
+
+  var openHomepage = () => {
+    navigate("/");
+  };
+
   return (
     <>
       <div className="header">
-        <div className="left-component">
+        <div onClick={openHomepage} className="left-component">
           <img src={logo} alt="logo" />
         </div>
         <div className="center-component">
@@ -33,7 +44,7 @@ var Header = () => {
             + 50,000đ
           </div>
           <div className="outer-right-icon infor">
-            <PiUserCircleLight className="icon-user" />
+            <PiUserCircleLight className="icon-user" onClick={switchToLogin} />
           </div>
           <div className="change-colour outer-right-icon theme">
             <BsFillMoonFill className="icon-theme" />

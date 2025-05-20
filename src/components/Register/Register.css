@@ -1,0 +1,112 @@
+.register {
+  /* background-color: #ddd; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register .register-card {
+  background-color: #fff;
+  width: 30%;
+  height: 90%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.register .register-card .app-infor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.register .register-card .app-infor img {
+  height: 70px;
+}
+
+.register .register-card .app-infor .name {
+  color: #f0594d;
+  font-weight: 500;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.register .register-card .input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register .register-card .input input {
+  width: 85%;
+  height: 20px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  padding: 8px 5px 8px 15px;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  margin-top: -6px;
+}
+
+.register .register-card .input .capacity {
+  display: flex;
+  width: 90%;
+}
+
+.register .register-card .input .capacity .choose {
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0594d;
+  color: #fff;
+  width: 30%;
+  font-weight: 500;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+
+.register .register-card .input .capacity .display-capacity {
+  width: 70%;
+  border-radius: 8px 0px 0px 8px;
+  pointer-events: none;
+  margin-top: 0px;
+}
+
+.register .register-card button {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 35px;
+  border: none;
+  background-color: #f0594d;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 3px 0px;
+}
+
+.register .register-card .more-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  padding: 0px 15px;
+  margin-bottom: 20px;
+}
+
+.register .register-card .more-options span {
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.register .register-card .more-options span:hover {
+  text-decoration: underline;
+}

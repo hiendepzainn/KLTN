@@ -1,0 +1,97 @@
+.login {
+  /* background-color: #ddd; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .login-card {
+  background-color: #fff;
+  width: 30%;
+  height: 75%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login .login-card .app-infor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.login .login-card .app-infor img {
+  height: 70px;
+}
+
+.login .login-card .app-infor .name {
+  color: #f0594d;
+  font-weight: 500;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.login .login-card .input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login .login-card .input input {
+  width: 85%;
+  height: 20px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  padding: 8px 5px 8px 15px;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+.login .login-card .input .forget-password {
+  width: 95%;
+  text-align: right;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.login .login-card .input .forget-password span {
+  cursor: pointer;
+}
+
+.login .login-card .input .forget-password span:hover {
+  text-decoration: underline;
+}
+
+.login .login-card button {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 33px;
+  border: none;
+  background-color: #f0594d;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 3px 0px;
+}
+
+.login .login-card .register-tag {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.login .login-card .register-tag span {
+  cursor: pointer;
+}
+
+.login .login-card .register-tag span:hover {
+  text-decoration: underline;
+}

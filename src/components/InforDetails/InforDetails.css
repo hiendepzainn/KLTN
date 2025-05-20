@@ -1,0 +1,299 @@
+.infor-component {
+  padding-top: 13px;
+}
+
+.infor-component .left {
+  display: flex;
+  flex-direction: row-reverse;
+  /* background-color: beige; */
+  width: 27%;
+}
+
+.infor-component .left .inner-left {
+  width: 55%;
+  /* background-color: aliceblue; */
+  padding: 5px;
+}
+
+.infor-component .left .inner-left .outer-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.infor-component .left .inner-left img {
+  width: 100%;
+}
+
+.infor-component .left .inner-left .ready {
+  text-align: center;
+  color: #39aa5d;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+.infor-component .left .inner-left .outer-fb-icon {
+  text-align: center;
+}
+
+.infor-component .left .inner-left .outer-fb-icon .fb-icon {
+  color: #4267b2;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.infor-component .left .inner-left .join-day {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.infor-component .left .inner-left .join-day .text {
+  color: rgb(179, 179, 179);
+  margin-right: 3px;
+}
+
+.infor-component .left .inner-left .join-day .number {
+  color: rgb(64, 64, 64);
+}
+
+.infor-component .center {
+  width: 46%;
+  /* background-color: #4267b248; */
+  position: relative;
+  top: -280px;
+  left: 27%;
+  padding: 10px 10px;
+}
+
+.infor-component .center .general {
+  border-bottom: 1px solid #ddddddda;
+  padding-bottom: 20px;
+}
+
+.infor-component .center .general .up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infor-component .center .general .up .name {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.infor-component .center .general .up .follow-block {
+  background-color: #eb5449;
+  padding: 0px 5px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.infor-component .center .general .up .follow-block .heart-icon {
+  margin-right: 5px;
+}
+
+.infor-component .center .general .down table th {
+  font-size: 10px;
+  padding-right: 20px;
+  color: #7b8390;
+}
+
+.infor-component .center .general .down table td {
+  color: #eb5449;
+  font-size: 14px;
+}
+
+.infor-component .center .general .down {
+  margin-top: 15px;
+}
+
+.infor-component .center .concepts {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid #ddddddda;
+  padding-bottom: 20px;
+}
+
+.infor-component .center .concepts .concept-item {
+  background-color: #000000;
+  color: white;
+  height: 32px;
+  width: 85px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.infor-component .center .description {
+  margin-top: 20px;
+  border-bottom: 1px solid #ddddddda;
+  padding-bottom: 20px;
+}
+
+.infor-component .center .description .products {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.infor-component .center .description .products img {
+  width: 19.3%;
+  cursor: pointer;
+}
+
+.infor-component .center .description .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.infor-component .center .description .content {
+  font-size: 12px;
+  color: #4e4e4e;
+  margin-bottom: 7px;
+}
+
+.infor-component .center .description .content .fb {
+  color: #4267b2;
+  cursor: pointer;
+}
+
+.infor-component .center .reviews {
+  margin-top: 20px;
+}
+
+.infor-component .center .reviews .review-item {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.infor-component .center .reviews .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.infor-component .center .reviews .review-item img {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #639ef1;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.infor-component .center .reviews .review-item .review {
+  width: calc(100% - 40px);
+  border-bottom: 1px solid #dadadabf;
+  padding-bottom: 10px;
+}
+
+.infor-component .center .reviews .review-item .review .up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infor-component .center .reviews .review-item .review .up .left-area {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.infor-component .center .reviews .review-item .review .up .left-area .name {
+  color: #456fab;
+  margin-bottom: 5px;
+}
+
+.infor-component .center .reviews .review-item .review .up .left-area .time {
+  font-size: 10.5px;
+  color: #6d6d6d;
+}
+
+.infor-component .center .reviews .review-item .review .up .right-area {
+  color: #ff9948;
+}
+
+.infor-component .center .reviews .review-item .review .down {
+  font-size: 12.5px;
+  margin-top: 6px;
+}
+
+.infor-component .right {
+  /* background-color: #ff9a4888; */
+  width: 25%;
+  position: relative;
+  top: -1115px;
+  left: 75%;
+}
+
+.infor-component .right .inner-right {
+  padding: 10px;
+  border: 1px solid #ddddddb8;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.infor-component .right .inner-right .price {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f0564a;
+  margin-bottom: 10px;
+}
+
+.infor-component .right .inner-right .rate-line {
+  display: flex;
+  align-items: center;
+}
+
+.infor-component .right .inner-right .rate-line .stars {
+  color: #ff9948;
+}
+
+.infor-component .right .inner-right .rate-line .number-of-rate {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #808080;
+}
+
+.infor-component .right .inner-right .button-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.infor-component .right .inner-right .button-area button {
+  width: 190px;
+  height: 45px;
+  color: #354052;
+  background-color: white;
+  border: 1px solid #cacacab8;
+  margin-top: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.infor-component .right .inner-right .button-area .rent-button {
+  color: #fff;
+  background-color: #f0564a;
+}
+
+.infor-component .right .inner-right .button-area .chat-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infor-component .right .inner-right .button-area span {
+  margin-left: 3px;
+}
